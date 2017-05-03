@@ -1,10 +1,10 @@
 /*
  * Archivo principal de funcionalidad de JS
  */
- // Get the modal
+ // Obtener modal
 var modal = document.getElementById('myModal');
 
-// Get the image and insert it inside the modal
+// obtener imagen e insertarla dentro del modal
 var img = document.getElementsByClassName('img-p');
 
   for (var i = 0; i < img.length; i++) {
@@ -17,10 +17,10 @@ var img = document.getElementsByClassName('img-p');
     modal.style.display = "block";
     modalImg.src = this.src;
   }
-// Get the <span> element that closes the modal
+// Obtener el elemento que cierra el modal
 var span = document.getElementById("close");
 
-// When the user clicks on <span> (x), close the modal
+// Cuando el usuario da click en el espan, cierra la imagen 
 span.addEventListener("click",cerrar)
 
 function cerrar() {
